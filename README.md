@@ -90,18 +90,22 @@ git commit -m "커밋 메시지"
 git push --set-upstream origin 브랜치 이름
 ```
 
-10. 아래처럼 뜨면 성공입니다.  
-![image](https://user-images.githubusercontent.com/79434205/174791651-10d99b5a-1b03-4652-8d33-3380b294b8f5.png)
-포크한 레포지토리에 원래 레포지토리의 최신 변경 사항이 반영되지 않은 경우, push가 안 될 수 있습니다.  
-그럴 때는
+10. 포크한 레포지토리에 원본 레포지토리의 최신 변경 사항이 반영되지 않은 경우, push가 안 될 수 있습니다.  
+그럴 때는 아래와 같이 한 줄씩 입력해 주세요.
 ```bash
-git pull
+git remote add upstream [원본 레포지토리 링크]
+git fetch upstream
 ```
+이렇게 뜨면 원본 레포지토리의 최신 변경 사항이 반영됩니다. 이후에는 git fetch upstream만 해도 됩니다.
+![image](https://user-images.githubusercontent.com/79434205/174796035-0387a6ce-99b2-4a92-b04b-08665ae16e04.png)
 
-11. 다시 레포지토리로 돌아가면 이렇게 뜰 겁니다. 녹색으로 표시된 compare & pull request 버튼을 눌러주세요.
+11. 아래처럼 뜨면 성공입니다.  
+![image](https://user-images.githubusercontent.com/79434205/174791651-10d99b5a-1b03-4652-8d33-3380b294b8f5.png)
+
+12. 다시 레포지토리로 돌아가면 이렇게 뜰 겁니다. 녹색으로 표시된 compare & pull request 버튼을 눌러주세요.
 ![image](https://user-images.githubusercontent.com/79434205/174783635-14e80c36-3c05-4049-934c-afa28c0a7232.png)
 
-12. 다음 과정은 [공통](#공통)입니다.
+13. 다음 과정은 [공통](#공통)입니다.
 
 ## 공통
 1. 별 문제가 없다면 Able to merge 라고 뜰 것입니다. create pull request 버튼을 눌러주세요.
@@ -123,4 +127,4 @@ git pull
 - 김도희
 - 김보람
 - 여다희
-- 이혜원 (확인)
+- 이혜원
