@@ -37,7 +37,7 @@
 5. 본인 이름의 브랜치인지 확인한 후에 녹색으로 표시한 commit change 버튼을 눌러주세요.  
 ![image](https://user-images.githubusercontent.com/79434205/174777732-11c0417b-fe33-4225-9b89-33d536ff9151.png)
 
-6. 원래 레포지토리의 최신 변경 사황을 반영하고 싶으면 fetch upstream 을 누르고 fetch and merge 누르시면 됩니다.  
+6. 원래 레포지토리의 최신 변경 사항을 반영하고 싶으면 fetch upstream 을 누르고 fetch and merge 누르시면 됩니다.  
 자주 안 해주면 머지할 때 오류가 나기도 하므로 한 번씩 해주세요.
 ![image](https://user-images.githubusercontent.com/79434205/174790960-b455b96b-cdd1-40e0-befb-c24443ed9c93.png)
 
