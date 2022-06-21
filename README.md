@@ -38,7 +38,10 @@
 6. 본인의 브랜치를 확인해보면 상단에 녹색으로 표시한 contribute 가 보이실 겁니다. 클릭해주시고 open pull request를 클릭해주세요.
 ![image](https://user-images.githubusercontent.com/79434205/174786691-7b203b4b-aa3b-4fbf-bf5e-9074c05cfa2f.png)
 
-7. 다음 과정은 [공통](#공통)입니다.
+7. 원래 레포지토리의 최신 변경 사황을 반영하고 싶으면 fetch upstream 을 누르고 fetch and merge 누르시면 됩니다.
+![image](https://user-images.githubusercontent.com/79434205/174790960-b455b96b-cdd1-40e0-befb-c24443ed9c93.png)
+
+8. 다음 과정은 [공통](#공통)입니다.
 
 
 ## CLI
@@ -88,7 +91,12 @@ git push --set-upstream origin 브랜치 이름
 ```
 
 10. 아래처럼 뜨면 성공입니다.  
-![image](https://user-images.githubusercontent.com/79434205/174783293-a1396f21-a5c1-4b0c-8b6e-d6adec04ab7e.png)
+![image](https://user-images.githubusercontent.com/79434205/174791651-10d99b5a-1b03-4652-8d33-3380b294b8f5.png)
+포크한 레포지토리에 원래 레포지토리의 최신 변경 사항이 반영되지 않은 경우, push가 안 될 수 있습니다.  
+그럴 때는
+```bash
+git pull
+```
 
 11. 다시 레포지토리로 돌아가면 이렇게 뜰 겁니다. 녹색으로 표시된 compare & pull request 버튼을 눌러주세요.
 ![image](https://user-images.githubusercontent.com/79434205/174783635-14e80c36-3c05-4049-934c-afa28c0a7232.png)
@@ -97,13 +105,17 @@ git push --set-upstream origin 브랜치 이름
 
 ## 공통
 1. 별 문제가 없다면 Able to merge 라고 뜰 것입니다. create pull request 버튼을 눌러주세요.
-![image](https://user-images.githubusercontent.com/79434205/174783929-a128520f-c80b-4a9d-b3f5-aa8ac29a6926.png)
+![image](https://user-images.githubusercontent.com/79434205/174792374-f36e414f-ca83-466e-a1c6-f7f4a69b7e9c.png)
+
 2. merge pull request 버튼을 눌러주세요.
-![image](https://user-images.githubusercontent.com/79434205/174784754-5ec9cc5c-4586-4674-b61b-59be9b0f7903.png)
-3. comfirm change 버튼을 눌러주세요.
-![image](https://user-images.githubusercontent.com/79434205/174784652-c1d8f1f9-25da-45c8-b549-c9e3d087a8e5.png)
+![image](https://user-images.githubusercontent.com/79434205/174792698-d1a8e5db-5925-479d-9553-6823914b82b4.png)
+
+3. comfirm merge 버튼을 눌러주세요.
+![image](https://user-images.githubusercontent.com/79434205/174793375-31d53aed-fe86-4568-b917-58e958a790e0.png)
+
 4. merge가 완료되고 녹색으로 표시된 부분을 눌러서 브랜치를 삭제합니다.
-![image](https://user-images.githubusercontent.com/79434205/174785021-45f483ba-2d75-4333-b7e9-2fc534ad0ac6.png)
+![image](https://user-images.githubusercontent.com/79434205/174793023-a31a2bbe-e8ae-416a-accc-1467cd1f221c.png)
+
 5. main 브랜치에서 README.md를 확인해 보세요.
 
 ## 확인
