@@ -20,26 +20,27 @@
 
 ## GUI
 1. main이라고 적힌 녹색으로 표시된 부분을 클릭해주세요.  
-![image](https://user-images.githubusercontent.com/79434205/174773335-5a121dd6-ab90-4eb3-95c7-38d12407b43a.png)
+![image](https://user-images.githubusercontent.com/79434205/174797482-5d365edf-e26b-4660-b84a-13cb3ef7930f.png)
 
 2. find or create a branch... 라고 적힌 부분에 본인의 이름을 적은 후, 녹색으로 표시된 부분을 클릭해주세요.
    (main 브랜치인지 꼭 확인해 주세요.)  
-![image](https://user-images.githubusercontent.com/79434205/174773693-896b13bd-ddaf-46b8-8496-9b4e0567f1e2.png)![image](https://user-images.githubusercontent.com/79434205/174774104-abf30a37-dee1-4aaf-9c1d-b303c948d273.png)
+![image](https://user-images.githubusercontent.com/79434205/174797324-d41950b4-e48b-4b97-8b24-730f8cd17583.png)![image](https://user-images.githubusercontent.com/79434205/174797294-b13ef646-270a-491a-9812-7f81951be7b1.png)
 
 3. 본인 이름의 브랜치가 하나 생성됩니다.  
-![image](https://user-images.githubusercontent.com/79434205/174775367-bd443ff8-6791-44e4-9a4a-61b55b8ae1f0.png)
+![image](https://user-images.githubusercontent.com/79434205/174797658-a912bf53-ed84-451c-a151-a548ca872c6b.png)
 
 4. README.md 파일을 클릭하시고, 녹색으로 표시된 부분을 클릭한 후, [확인](#확인)에 있는 본인의 이름 옆에 (확인) 이라고 적어주세요.  
-![image](https://user-images.githubusercontent.com/79434205/174776263-16a1b099-c94b-47f7-86b4-9c2cf2bf883f.png)
+![image](https://user-images.githubusercontent.com/79434205/174798571-f53d1384-edf3-4ec7-8c92-93532a0c0715.png)
 
 5. 본인 이름의 브랜치인지 확인한 후에 녹색으로 표시한 commit change 버튼을 눌러주세요.  
 ![image](https://user-images.githubusercontent.com/79434205/174777732-11c0417b-fe33-4225-9b89-33d536ff9151.png)
 
-6. 본인의 브랜치를 확인해보면 상단에 녹색으로 표시한 contribute 가 보이실 겁니다. 클릭해주시고 open pull request를 클릭해주세요.
-![image](https://user-images.githubusercontent.com/79434205/174786691-7b203b4b-aa3b-4fbf-bf5e-9074c05cfa2f.png)
-
-7. 원래 레포지토리의 최신 변경 사황을 반영하고 싶으면 fetch upstream 을 누르고 fetch and merge 누르시면 됩니다.
+6. 원래 레포지토리의 최신 변경 사황을 반영하고 싶으면 fetch upstream 을 누르고 fetch and merge 누르시면 됩니다.  
+자주 안 해주면 머지할 때 오류가 나기도 하므로 한 번씩 해주세요.
 ![image](https://user-images.githubusercontent.com/79434205/174790960-b455b96b-cdd1-40e0-befb-c24443ed9c93.png)
+
+7. 본인의 브랜치를 확인해보면 상단에 녹색으로 표시한 contribute 가 보이실 겁니다. 클릭해주시고 open pull request를 클릭해주세요.
+![image](https://user-images.githubusercontent.com/79434205/174798157-3d091870-24c0-476e-82b2-8c6a098d0e0b.png)
 
 8. 다음 과정은 [공통](#공통)입니다.
 
