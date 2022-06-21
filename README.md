@@ -18,6 +18,7 @@
 ![image](https://user-images.githubusercontent.com/79434205/174788891-da926dc6-3661-4730-a4a7-7631d9a0b8b7.png)
 
 4. 다음 과정은 [GUI](#gui), [CLI](#cli) 중 편한 방법으로 따라해 주시면 됩니다.  
+   원본 레포지토리가 아닌 포크한 레포지토리에서 진행해야 합니다.
 
 ## GUI
 1. main이라고 적힌 녹색으로 표시된 부분을 클릭해주세요.  
