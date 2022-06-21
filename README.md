@@ -89,7 +89,7 @@ git commit -m "커밋 메시지"
 
 9. 아래와 같이 입력해 주세요. 브랜치 이름에는 따옴표를 적지 않습니다.
 ```bash
-git push --set-upstream origin 브랜치 이름
+git push --set-upstream origin [브랜치 이름]
 ```
 
 10. 포크한 레포지토리에 원본 레포지토리의 최신 변경 사항이 반영되지 않은 경우, push가 안 될 수 있습니다.  
@@ -99,7 +99,8 @@ git remote add upstream [원본 레포지토리 링크]
 git fetch upstream
 ```
 이렇게 뜨면 원본 레포지토리의 최신 변경 사항이 반영됩니다. 이후에는 git fetch upstream만 해도 됩니다.
-![image](https://user-images.githubusercontent.com/79434205/174796035-0387a6ce-99b2-4a92-b04b-08665ae16e04.png)
+![image](https://user-images.githubusercontent.com/79434205/174796035-0387a6ce-99b2-4a92-b04b-08665ae16e04.png)  
+이후 다시 푸시해주시면 됩니다.
 
 11. 아래처럼 뜨면 성공입니다.  
 ![image](https://user-images.githubusercontent.com/79434205/174791651-10d99b5a-1b03-4652-8d33-3380b294b8f5.png)
