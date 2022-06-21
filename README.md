@@ -4,6 +4,7 @@
 - [Fork](#fork)
 - [GUI](#gui)
 - [CLI](#cli)
+- [공통](#공통)
 - [확인](#확인)
 
 ## Fork
